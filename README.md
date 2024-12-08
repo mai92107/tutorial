@@ -30,7 +30,7 @@
 - `PaymentController` 為 API 測試使用，請參考其邏輯進行開發者程式碼的修改。  
 - `TapPayRequest` 與 `TapPayResponse` 的結構可參考官方文件進行新增與調整。  
   [TapPay 官方文件](https://docs.tappaysdk.com/tutorial/zh/back.html#pay-by-prime-api)
-
+- 官方提供之測試卡號為 4242424242424242，有效期限 01/25，CCV碼 123。(經測試有效期限與CCV碼於測試環境 TapPay server 均無驗證)。
 ---
 
 ### 示意圖 (後端流程)
